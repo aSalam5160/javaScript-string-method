@@ -55,11 +55,16 @@ p {
 #main p {
   color: black;
 }
+#main .e_s_c {
+  color: green;
+  font-size: 15px;
+  background-color: white;
+}
 #main button {
   padding: 10px 20px;
   font-weight: bold;
   cursor: pointer;
   font-size: 18px;
   margin-left: 100px;
-  margin-top: 12px;
+  margin-top: ;
 }
