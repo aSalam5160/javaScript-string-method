@@ -29,10 +29,37 @@ p {
 }
 
 /* --------------------------typography finish -------------------------*/
-
+#about_section h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
 #about_section h2 {
   color: red;
 }
 #about_section p {
   color: green;
+  margin-bottom: 15px;
+}
+
+/* ---------------------------about section end----------------------------- */
+
+.main_bg {
+  background: #ddd;
+}
+#main {
+  padding: 20px 0px;
+}
+#main h2 {
+  color: red;
+}
+#main p {
+  color: black;
+}
+#main button {
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 12px;
 }
