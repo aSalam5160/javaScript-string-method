@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.full_wrapper {
+  width: 100%;
+}
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 180%;
+}
+p {
+  line-height: 180%;
+}
+.clear {
+  overflow: hidden;
+}
+
+/* --------------------------typography finish -------------------------*/
+
+#about_section h2 {
+  color: red;
+}
+#about_section p {
+  color: green;
+}
