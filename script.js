@@ -9,3 +9,17 @@ function strFunction() {
   alert("you're gonna see 'Lorem ipsum'");
   document.getElementById("demo").innerHTML = x.substr(0, 25);
 }
+
+//function for uppercase
+
+function upFunction() {
+  let boro = document.getElementById("up").innerHTML;
+  document.getElementById("up").innerHTML = boro.toUpperCase();
+}
+
+//function for lowercase
+
+function lowFunction() {
+  let choto = document.getElementById("low").innerHTML;
+  document.getElementById("low").innerHTML = choto.toLowerCase();
+}

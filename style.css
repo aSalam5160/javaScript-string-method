@@ -65,6 +65,27 @@ p {
   font-weight: bold;
   cursor: pointer;
   font-size: 18px;
-  margin-left: 100px;
-  margin-top: ;
+  margin-left: 50%;
+  margin-top: 20px;
+}
+
+/* --------------------------------2nd step start start--------------------- */
+
+.snd_step {
+  background: black;
+  padding: 50px;
+  margin-top: 30px;
+  /* color: white; */
+}
+.snd_step #up,
+.snd_step #low {
+  color: white;
+}
+.snd_top {
+}
+.snd_top_left {
+  float: left;
+}
+.snd_top_right {
+  float: right;
 }
