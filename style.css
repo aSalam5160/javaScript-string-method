@@ -81,11 +81,119 @@ p {
 .snd_step #low {
   color: white;
 }
-.snd_top {
-}
+/* .snd_top {
+} */
 .snd_top_left {
   float: left;
 }
 .snd_top_right {
   float: right;
+}
+
+/* string concatinate part start */
+.day_3_bg {
+  background: #fff;
+}
+#day_3 {
+  padding: 5px;
+}
+.string_concat {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.string_concat button {
+  padding: 4px;
+  background: #ddd;
+  cursor: pointer;
+}
+.trim {
+  padding: 4px;
+  background: rgb(177, 177, 137);
+  overflow: hidden;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 150%;
+}
+.trim_left {
+  float: left;
+  width: 32%;
+  margin-right: 11px;
+  padding-right: 11px;
+  border-right: 1px solid #fff;
+}
+.trim_middle {
+  float: left;
+  width: 31%;
+  border-right: 1px solid #fff;
+  margin-right: 11px;
+  padding-right: 11px;
+}
+.trim_right {
+  float: left;
+  width: 32%;
+}
+
+/* ----------------------------------problem part start ----------------------------------- */
+
+.prob_bg {
+  background: rgb(255, 144, 144);
+}
+#problem_solved {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+#problem_solved h1 {
+  text-align: center;
+}
+.pad_start {
+  width: 48%;
+  float: left;
+  margin-right: 14px;
+  padding: 8px;
+}
+.pad_start button,
+.pad_end button {
+  padding: 6px 14px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 30px;
+}
+.pad_end {
+  width: 48%;
+  float: right;
+  padding: 8px;
+}
+#E_S_C {
+  padding: 4px 4px 20px 4px;
+  background: #fff;
+  border-bottom: 4px solid black;
+  overflow: hidden;
+  margin: 10px;
+}
+#E_S_C h1,
+#E_S_C p {
+  text-align: center;
+}
+.e_s_c_left {
+  width: 50%;
+  float: left;
+}
+.e_s_c_right {
+  width: 50%;
+  float: right;
+}
+
+/* ---------------------------------footer part start ------------------------------*/
+
+.footer_bg {
+  background: greenyellow;
+}
+#footer_section {
+  padding: 10px;
+}
+#footer_section h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: normal;
 }

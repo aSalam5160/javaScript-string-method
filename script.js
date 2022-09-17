@@ -23,3 +23,35 @@ function lowFunction() {
   let choto = document.getElementById("low").innerHTML;
   document.getElementById("low").innerHTML = choto.toLowerCase();
 }
+
+// function for string concatination
+
+function stringFunction() {
+  let string = document.getElementById("con_ans").innerHTML;
+  document.getElementById("con_ans").innerHTML = string.concat(" ", "jhon doe");
+}
+
+// function for string padding
+
+function padstart() {
+  let x = "5";
+  document.getElementById("pad_s").innerHTML = x.padStart(4, "x");
+}
+
+function padend() {
+  let y = 6;
+  let z = y.toString();
+  document.getElementById("pad_e").innerHTML = z.padEnd(4, "0");
+}
+
+// function for extracting string characters
+
+function charat() {
+  let s = document.getElementById("budda").innerHTML;
+  document.getElementById("char").innerHTML = s.charAt(8);
+}
+
+function charcodeat() {
+  let z = document.getElementById("buddas").innerHTML;
+  document.getElementById("char_2").innerHTML = z.charCodeAt(8);
+}

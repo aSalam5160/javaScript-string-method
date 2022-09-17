@@ -88,6 +88,151 @@
       </div>
     </div>
 
+    <div class="full_wrapper day_3_bg clear">
+      <div class="wrapper clear">
+        <section id="day_3">
+          <div class="string_concat clear">
+            <h2>
+              <strong>What's javaScript string concat</strong> - A string concat
+              is a string method to used for string concatination.
+            </h2>
+            <p id="con_ans">For example: "jhon" + "doe" =</p>
+            <button type="button" onclick="stringFunction()">Try It</button>
+          </div>
+          <div class="trim clear">
+            <div class="trim_left">
+              <h2>
+                String trimStart method' - The string trimStart method used for
+                remove unnecesarry space from the left of a string.
+                <b>-[trimStart()]</b>
+              </h2>
+              <p>Try to check console for better understand!</p>
+            </div>
+            <div class="trim_middle">
+              <h2>
+                String trim method' - The string trim method used for remove
+                unnecesarry space both side of a string. <b>-[trim()]</b>
+              </h2>
+              <p>Try to check console for better understand!</p>
+            </div>
+            <div class="trim_right">
+              <h2>
+                String trimEnd method' - The string trimEnd method used for
+                remove unnecesarry space from the end of a string.
+                <b>-[trimEnd()]</b>
+              </h2>
+              <p>Try to check console for better understand!</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- problem part start -->
+
+    <div class="full_wrapper prob_bg clear">
+      <div class="wrapper clear">
+        <section id="problem_solved">
+          <h1><strong>javaScript string padding</strong></h1>
+          <div class="pad_start clear">
+            <h2>The padStart()</h2>
+            <p>
+              The padStart method help in padding with another string. Let's see
+              what's result the code showed us :
+            </p>
+            <p>Let x = 5; x.padStart(4, "x");</p>
+            <p id="pad_s"></p>
+            <button type="button" onclick="padstart()">Try It</button>
+          </div>
+          <div class="pad_end clear">
+            <h2>The padEnd()</h2>
+            <p>
+              The padEnd method help in padding with another string. Let's see
+              what's result the code showed us :
+            </p>
+            <p>Let y = 6; y.padEnd(4, "0");</p>
+            <p id="pad_e"></p>
+            <button type="button" onclick="padend()">Try It</button>
+          </div>
+        </section>
+
+        <section id="E_S_C">
+          <h1>Extracting String Characters</h1>
+          <p>
+            There are three methods for extracting string Characters.
+            1)charAt(); 2)charCodeAt() and 3)property access.
+          </p>
+          <div class="e_s_c_left">
+            <h2 id="budda" style="font-weight: normal">The charAt METHOD.</h2>
+            <p id="char">Click try it to extract "A" from the above heading:</p>
+            <button type="button" onclick="charat()">Try it</button>
+          </div>
+          <div class="e_s_c_right">
+            <h2 id="buddas" style="font-weight: normal">
+              The charCodeAt METHOD.
+            </h2>
+            <p id="char_2">
+              Click try it to extract "A" for A's unicode from the above
+              heading:
+            </p>
+            <button type="button" onclick="charcodeat()">Try it</button>
+          </div>
+          <h2>
+            Note: property access just read only. It gives no error but it
+            doesn't work!
+          </h2>
+        </section>
+      </div>
+    </div>
+
+    <div class="full_wrapper">
+      <div class="wrapper">
+        <section id="before_footer">
+          <h1>Converting a string with an array</h1>
+          <p>
+            If you want to work with a string as an array you can convert it an
+            array. The method called split. Arrays splited depends on spaces,
+            comma, pipe. If you ommited the separtor it'll contain the full
+            string as it's zero index.
+          </p>
+          <ol>
+            <li>
+              let x = "a,b,c" ;<br />
+              js-code: x.split(","); <br />
+              Now x is treat an array with index [0] = a, [1] = b and [2] = c;
+            </li>
+            <br />
+            <li>
+              let x = "ab cd e" ;<br />
+              js-code: x.split(" "); <br />
+              Now x is treat an array with index [0] = ab, [1] = cd and [2] = e;
+            </li>
+            <br />
+            <li>
+              let x = "ami|tumi|she" ;<br />
+              js-code: x.split("|"); <br />
+              Now x is treat an array with index [0] = ami, [1] = tumi and [2] =
+              she;
+            </li>
+            <br />
+            <li>
+              let x = "a,b,c" ;<br />
+              js-code: x.split(""); <br />
+              Now x is treat an array with index [0] = a,b,c;
+            </li>
+          </ol>
+        </section>
+      </div>
+    </div>
+
+    <div class="full_wrapper footer_bg">
+      <div class="wrapper">
+        <footer id="footer_section">
+          <h1>THANKS FOR READING :)</h1>
+        </footer>
+      </div>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
